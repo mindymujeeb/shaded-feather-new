@@ -198,43 +198,6 @@ ul {
   padding-top: 3rem;
 }
 
-/* .wrapper{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: blanchedalmond;
-}
-
-.slider-2{
-  width: 80vw;
-  height: 200px;
-  position: relative;
-  background-color: white;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  overflow: hidden;
-}
-
-.slide-2{
-  background-color: blue;
-  display: flex;
-  align-items: center;
-  height: 400px;
-  animation: scroll-2 8s linear infinite;
-}
-
-.slide-2 img:hover{
-  animation-play-state: paused;
-}
-
-@keyframes scroll-2 {
-  0%{transform: translateX(0);}
-  100%{transform: translateX(-100%);}
-} */
-
 .home-text-1{
   margin-left: 2rem;
   text-align: justify;;
@@ -243,4 +206,96 @@ ul {
 .home-text-2{
   margin: 0;
   text-align: justify;;
+}
+
+/* project page */
+.complete-project{
+  padding: 0 1rem 0 6rem;
+  background-color: rgba(0, 0, 0, 0.950);
+}
+
+.photos-grid-div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.photos-side-headings{
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: Lalezar, cursive;
+  padding: 1rem 0 1rem 0;
+  color: #FFBC59;
+  /* text-align: center; */
+}
+
+.img-project{
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-project:hover{
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+
+/* videos grid */
+.complete-films{
+  padding: 1rem 1rem 1rem 6rem;
+  background-color: rgba(0, 0, 0, 0.950);
+}
+
+.videos-grid-div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(580px, 580px));
+  gap: 2rem 0;
+  padding: 0 1rem 2rem 0;
+  place-items: center center;
+}
+
+.videos-grid-div-2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+  gap: 2rem 1rem;
+  padding: 0 1rem 2rem 0;
+  place-items: center center;
+}
+
+.videos-grid-div-3{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(361px, 361px));
+  gap: 2rem 1rem;
+  padding: 0 1rem 2rem 0;
+  place-items: center center;
+}
+
+.iframe-films{
+  width: 550px;
+  height: 320px;
+  transition: all 0.2s ease-in-out;
+}
+
+.iframe-vertical{
+  width: 310px;
+  height: 540px;
+  transition: all 0.2s ease-in-out;
+}
+
+.iframe-4-3{
+  width: 350px;
+  height: 380px;
+  transition: all 0.2s ease-in-out;
+}
+
+.iframe-films:hover, .iframe-vertical:hover, .iframe-4-3:hover{
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+}
+
+/* microcontent */
+.microcontent-img{
+  width: 100%;
+  height: auto;
 }
