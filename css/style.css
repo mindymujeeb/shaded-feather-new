@@ -929,7 +929,8 @@ body.menu-open {
 .clients-section {
     background-color: #fff;
     text-align: left;
-    padding: 10rem 10rem 3rem;
+    padding: 5rem 8rem;
+    text-align: center;
 }
 
 .clients-section .lg-text {
