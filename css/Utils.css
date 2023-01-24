@@ -50,7 +50,7 @@
 
 .video-div{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .hover:hover{
@@ -298,4 +298,70 @@ ul {
 .microcontent-img{
   width: 100%;
   height: auto;
+}
+
+.photography-title{
+  padding-left: 2rem;
+}
+
+.clients-div{
+  height: 3rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center center;
+  gap: 0 40px;
+  margin-bottom: 3rem;
+}
+
+.clients-img{
+  height: 3rem;
+  width: auto;
+}
+
+.footer-call-div{
+  display: flex; 
+  gap: 20px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* home page */
+
+/* navar logo */
+@media screen and (max-width:992px) {
+  .center{
+    position: static;
+    top: 0%;
+  }
+  .logo-navbar{
+    height: 8rem;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-text{
+    font-size: 1.5rem;
+  }
+
+  .clients-div{
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center center;
+    gap: 1.5rem 1rem;
+    margin-bottom: 5rem;
+  }
+
+  .clients-img{
+    height: 2rem;
+    width: auto;
+  }
+
+  .footer-call-div{
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  
 }

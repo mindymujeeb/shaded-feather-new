@@ -1723,14 +1723,25 @@ body.menu-open {
     }
 
     .boxy h1.title {
-        font-size: 3rem;
-        line-height: 2.4rem;
-        margin-bottom: 2rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    
+    .boxy h4.text {
+        font-size: 1.3rem;
+        margin: 0;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
     }
 
     .boxy.img-box {
-        padding: 3.2rem;
-        min-height: 370px;
+        padding: 2rem;
+        min-height: 220px;
     }
 
     .boxy.img-box:before {
@@ -2037,7 +2048,7 @@ body.menu-open {
     }
 
     .cr-btn {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .header {
@@ -2057,6 +2068,7 @@ body.menu-open {
     .normal-text p {
         font-size: 1rem;
         line-height: 1.8rem;
+        padding: 0 1rem;
     }
 
     .boxy {
@@ -2072,15 +2084,15 @@ body.menu-open {
     }
 
     .default-content {
-        padding: 10rem 2rem 8rem;
+        padding: 5rem 2rem;
     }
 
     .other-content {
-        padding: 6rem 2rem;
+        padding: 4rem 2rem;
     }
 
     .footer {
-        padding: 6rem 2rem 6rem;
+        padding: 4rem 2rem;
     }
 
     .footer .contact-info-holder {
@@ -2088,20 +2100,23 @@ body.menu-open {
     }
 
     .footer .contact-info-holder .title {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     .footer .contact-info-holder .contact-info {
-        font-size: 2.2rem;
-        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 
     .footer .contact-info-holder .contact-info a {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
     }
 
     .footer .contact-info-holder .social-media .social-link-holder a {
         font-size: 0.9rem;
+        line-height: 1;
     }
 
     .footer.one-word {
