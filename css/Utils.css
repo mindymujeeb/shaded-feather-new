@@ -363,5 +363,19 @@ ul {
     grid-template-columns: 1fr;
     gap: 0;
   }
+
+  .other-pages-text{
+    margin-top: 1rem;
+    line-height: 1.2;
+    padding: 0 1rem;
+  }
+
+  .img-carousel{
+    height: 6rem;
+  }
   
+  .carousel__slider{
+    padding: 0;
+    margin: 0;
+  }
 }

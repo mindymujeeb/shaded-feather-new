@@ -80,12 +80,6 @@ function carousel() {
   document.querySelector('.carousel__item-4').addEventListener('mouseleave', (e)=>{
     document.querySelector('.description-4').style.display = 'none'
   })
-  document.querySelector('.carousel__item-5').addEventListener('mouseenter', (e)=>{
-    document.querySelector('.description-5').style.display = 'block'
-  })
-  document.querySelector('.carousel__item-5').addEventListener('mouseleave', (e)=>{
-    document.querySelector('.description-5').style.display = 'none'
-  })
 }
 
 carousel();
