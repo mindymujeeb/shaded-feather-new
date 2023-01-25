@@ -449,8 +449,8 @@ ul {
   }
 
   .iframe-films{
-    width: 400px;
-    height: 200px;
+    width: 360px;
+    height: 180px;
     transition: all 0.2s ease-in-out;
   }
   
@@ -472,10 +472,14 @@ ul {
   .vid{
     height: 200px;
     width: 100%;
-    padding: 0;
+    padding: 0 1rem;
   }
 
   .graycolor{
     padding: 1rem 0 2rem 0;
+  }
+
+  .complete-films{
+    overflow: hidden;
   }
 }
