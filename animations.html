@@ -35,15 +35,24 @@
         <div class="social-link-holder"><a target="_blank" href="https://www.facebook.com/shadedfeather/">Facebook</a></div>
     </div>
 </div>
-<div class="complete-films">
-  <div class="photos-side-headings" style="text-align: center;">animations and cg</div>
+<div class=" complete-animations">
+  <div class="photos-side-headings" style="text-align: center; margin: 0; padding: 0;">animations and cg films</div>
   <div class="animations-grid-div">
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/617123459?h=f6dd03766e" loading="lazy" class="iframe-animations" frameborder="0" allowfullscreen></iframe>
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/617116975?h=916b9b3c36" loading="lazy" class="iframe-animations" frameborder="0" allowfullscreen></iframe>
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/460260701?h=cc5af39ed8" loading="lazy" class="iframe-animations" frameborder="0" allowfullscreen></iframe>
-    <iframe title="vimeo-player" src="https://player.vimeo.com/video/643211335?h=b988ade06c" loading="lazy" class="iframe-animations" frameborder="0" allowfullscreen></iframe>
+    <video src="./Assets/videos/whirlpool.mp4" type="video/mp4" 
+    muted class="vid" loop>
+    </video>
+    <video src="./Assets/videos/coats.mp4" type="video/mp4" 
+    muted class="vid" loop>
+    </video>
+    <video src="./Assets/videos/coats2.mp4" type="video/mp4" 
+    muted class="vid" loop>
+    </video>
+    <video src="./Assets/videos/canon.mp4" type="video/mp4" 
+    muted class="vid" loop>
+    </video>
   </div>
-  <div class="photos-grid-div animations-div-2">
+  <div class="photos-side-headings" style="text-align: center; margin: 0; padding: 0;">animations and cg photography</div>
+  <div class="animations-div-2">
     <div class="">
         <img class="img-project" src="./Assets/wetransfer_images_2023-01-16_1340/Images/Screenshot 2023-01-16 at 4.12.47 PM.png" alt="">
     </div>
@@ -117,6 +126,17 @@
 <script src="js/anime.min.js"></script>
 <script src="js/scrollreveal.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    let clip = document.querySelectorAll(".vid")
+    clip.forEach((video) => {
+        video.addEventListener("mouseover", function () {
+            video.play();
+        })
+        video.addEventListener("mouseout", function () {
+            video.pause();
+        })
+    })
+</script>
 </body>
 </html>
 
