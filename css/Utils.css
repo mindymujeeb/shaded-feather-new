@@ -420,7 +420,6 @@ ul {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 1rem;
     gap: 1rem;
-    place-items: center center;
   }
 
   .img-carousel{
