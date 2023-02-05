@@ -124,7 +124,7 @@ ul {
 } */
 
 .team-div{
-  padding: 0rem 3rem;
+  padding: 0rem 1rem;
 }
 
 .li-team{
@@ -135,7 +135,7 @@ ul {
 
 .ul-div-team{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   place-items: center center;
   margin-bottom: 3rem;
   gap: 1rem;
@@ -171,7 +171,7 @@ ul {
 }
 
 .img-carousel{
-  height: 20rem;
+  height: 17rem;
   border-radius: 10rem;
   width: auto;
 }
@@ -188,6 +188,7 @@ ul {
 
 .role{
   margin: 0;
+  margin-bottom: 0.3rem;
   text-align: center;
   text-transform: capitalize;
 }

@@ -25,6 +25,12 @@ function carousel() {
   document.querySelector('.team-4').addEventListener('mouseleave', (e)=>{
     document.querySelector('.description-4').style.visibility = 'hidden'
   })
+  document.querySelector('.team-5').addEventListener('mouseenter', (e)=>{
+    document.querySelector('.description-5').style.visibility = 'visible'
+  })
+  document.querySelector('.team-5').addEventListener('mouseleave', (e)=>{
+    document.querySelector('.description-5').style.visibility = 'hidden'
+  })
 }
 
 carousel();
